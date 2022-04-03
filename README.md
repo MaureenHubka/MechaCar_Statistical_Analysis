@@ -59,7 +59,7 @@ The null hypothesis or alternative hypothesis would be as follows:
    - Null : The means of all groups are equal.
    - Alternative : At least one of the means is different from all other groups
 
-The statistical test that would be used for testing the hypothesis would be the analysis of variance (ANOVA) test, becasue it is used to compare the means of a continuous numerical variable across a number of groups. If the null is rejected, T-Tests can be performed to compare the mean mpg of MechCar to each competing manufacturer. The data needed to run the statistical tests are the mean mpgs from MechaCar and several other competing automobile manufactureres. We may also want to run analysis by type of vehihicles that are specifically similar to the MechCar module or all types.
+The statistical test that would be used for testing the hypothesis would be the analysis of variance (ANOVA) test, becasue it is used to compare the means of a continuous numerical variable across a number of groups. If the null is rejected, T-Tests can be performed to compare the mean mpg of MechCar to each competing manufacturer. The data needed to run the statistical tests are the mean mpgs from MechaCar and several other competing automobile manufactureres from the last year. We may also want to run analysis by type of vehihicles that are specifically similar to the MechCar module or all types.
 
   
  
