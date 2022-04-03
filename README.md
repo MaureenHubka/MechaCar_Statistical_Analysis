@@ -9,7 +9,7 @@ Module 15 Challenge
   
 - Is the slope of the linear model considered to be zero? Why or why not?
 
-  - The slope of the linear model is not consired to be zero. The p is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+  - The slope of the linear model is not consired to be zero. The p- value is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
  - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
@@ -51,14 +51,16 @@ T-tests were performed to determine if all manufacturing lots and each lot indiv
  
  ## Study Design: MechaCar vs Competition
  
-- What metric or metrics are you going to test?
+A statistical study design that can be used to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers is one that would
+use the metric of the Mean mpg of MechaCar vs Competition. 
 
-- What is the null hypothesis or alternative hypothesis?
+The null hypothesis or alternative hypothesis would be as follows:
 
-- What statistical test would you use to test the hypothesis? And why?
+   - Null : The means of all groups are equal.
+   - Alternative : At least one of the means is different from all other groups
 
+The statistical test that would be used for testing the hypothesis would be the analysis of variance (ANOVA) test, becasue it is used to compare the means of a continuous numerical variable across a number of groups. If the null is rejected, T-Tests can be performed to compare the mean mpg of MechCar to each competing manufacturer. The data needed to run the statistical tests are the mean mpgs from MechaCar and several other competing automobile manufactureres. We may also want to run analysis by type of vehihicles that are specifically similar to the MechCar module or all types.
 
-- What data is needed to run the statistical test?
- 
+  
  
  
